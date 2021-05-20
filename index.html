@@ -7,27 +7,40 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
+  <div class="container">
+    <div class="box-left">
+      <div class="showcase-container">
+        <h1 class='title'>Get <span>insights</span> that help your business grow.</h1>
+        <p class='description'>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+          experience, and overall efficiency.</p>
+      </div>
+      <div class="stats-container">
+        <div class="stat">
+          <h3 class='stat-title'>10k+</h3>
+          <p class="stat-description">companies</p>
+        </div>
+        <div class="stat">
+          <h3 class='stat-title'>314</h3>
+          <p class="stat-description">templates</p>
+        </div>
+        <div class="stat">
+          <h3 class='stat-title'>12M+</h3>
+          <p class="stat-description">queries</p>
+        </div>
+        
+      </div>
+    </div>
+    <div class="box-right">
+      <img src="/images/image-header-desktop.jpg" alt="image-header-desktop">
+    </div>
+  </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://sammarston.netlify.com" target='_blank'>Sam Marston</a>.
   </div>
 </body>
 </html>
